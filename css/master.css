@@ -1,0 +1,213 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Style+Script&display=swap'); */
+* {
+   margin:0;
+   font-family: "Lucida Fax";
+}
+
+header {
+  border:5px solid white;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#ftcc_logo {
+  width: 80%;
+  margin:20px auto;
+  display:block;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+/* border-bottom: 0px; */
+}
+
+.navbar {
+   list-style: none;
+   padding-left: 0px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav_first {
+  padding-left:30px;
+}
+
+.navbar li:hover a {
+  color:rgb(161, 10, 113);
+}
+.center_txt{
+  text-align: center;
+  width: 65%;
+  margin:auto;
+}
+main {
+  border: 2px solid lightgray;
+}
+.about_center {
+
+}
+
+/*form styling */
+
+input[type=text] {
+  border:none;
+  border-bottom: 5px solid black;
+  border-radius: 2px;
+  }
+
+
+  input[type=submit], input[type=reset] {
+    color:white;
+    padding: 10px;
+    background-color:rgb(161, 10, 113);
+    border:2px solid rgb(161, 10, 113);
+  }
+
+  input[type=file]{
+    background-color: rgb(244, 95, 197);
+  }
+
+label {
+  font-style: italic;
+  font-weight: bold;
+}
+
+form {
+  padding:20px;
+  /* border: 5px solid rgb(244, 95, 197); */
+  color: black;
+  border-radius: 2px;
+}
+
+select {
+  border: none;
+  border:5px solid rgb(161, 10, 113);
+  border-radius:2px;
+  width: 300px;
+}
+
+option {
+  padding:5px;
+}
+textarea {
+  border: none;
+  border: 5px solid rgb(161, 10, 113);
+  border-radius: 2px;
+  width: 300px;
+}
+#form_title {
+  margin-bottom: 15px;
+}
+.bold_text {
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+background-color:rgb(161, 10, 113);
+color:white;
+overflow:auto;
+padding:20px;
+font-family: "Lucida Fax";
+}
+
+.footer_left {
+width:30%;
+float:left;
+}
+
+.footer_right {
+width:60%;
+float:right;
+}
+
+/* TYPOGRAPHY */
+
+.dropcap {
+font-size: 20pt;
+font-weight:bold;
+}
+
+font-family: "Lucida Fax";
+
+}
+/* HEADER AREA */
+.site_header {
+  padding:10px;
+  background-color: white;
+  color: white;
+  font-family:"Lucida Fax";
+}
+
+.left_header {
+  width: 30%;
+  display:flex;
+  align-items: center;
+
+}
+.right_header {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.subheader {
+  text-align: center;
+}
+
+/* .center_header {
+  width: 30%;
+} */
+
+/* .center_header img {
+  width:100%;
+} */
+
+.center_header img {
+  width:100%;
+}
+/*FOOTER AREA*/
+
+.center_main {
+  text-align: center;
+}
+.footer_left {
+  width: 30%;
+}
+.footer_right {
+  width: 60%;
+}
+
+/* Grid Container*/
+
+.grid_container {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  /*grid-column-gap:10px
+  grid-row-gap:10px;*/
+  grid-gap: 10px;
+  padding:10px;
+  align-items: center;
+}
+
+.grid_image {
+  width: 100%;
+  
+}
+
+.squircle {
+  border-radius: 15px;
+}
+
+#two_col {
+  grid-column-start:1;
+}
+
+ @media only screen and (min-width:800px)
